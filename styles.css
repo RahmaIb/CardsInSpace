@@ -1,0 +1,45 @@
+body {
+    background-image: url("./imgs/sky.jpg");
+    background-size: cover; /* Changed to cover for full background coverage */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Use a valid selector: 'intro' should be a class or ID, not a tag */
+.intro {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+/* Use correct selector syntax: no dot before 'p' unless it's a class */
+.intro p { 
+	margin-left: 10%;
+	margin-right: 10%;
+	color: white;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 2;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Added background color for readability */
+    border-radius: 10px; /* Added rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+    transition: transform 0.2s; /* Added transition for hover effect */
+    cursor: pointer; /* Added cursor pointer for interactivity */
+    margin: 20px auto; /* Centered the paragraph */
+    max-width: 800px; /* Set a max width for better readability */
+    /* Added padding for spacing */
+    padding: 20px;
+    /* Added margin for spacing */
+    margin: 20px auto;
+    /* Added a hover effect */
+    &:hover {
+        transform: scale(1.05); /* Slightly enlarge on hover */
+        background-color: rgba(255, 255, 255, 0.8); /* Change background color on hover */
+        color: #000; /* Change text color on hover */
+    }
+}
