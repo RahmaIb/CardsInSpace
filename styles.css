@@ -26,8 +26,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    transition: transform 0.2s; /* Added transition for hover effect */
-    cursor: pointer; /* Added cursor pointer for interactivity */
+    transition: transform 0.2s; 
+    cursor: pointer; 
     margin: 20px auto; 
     max-width: 800px; 
     padding: 20px;
@@ -35,9 +35,10 @@ body {
 	
     /* Added a hover effect */
     &:hover {
-        transform: scale(1.05); /* Slightly enlarge on hover */
-        background-color: rgba(255, 255, 255, 0.8); /* Change background color on hover */
-        color: #000; /* Change text color on hover */
+        transform: scale(1.05); 
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #000; 
     }
 }
+
 
